@@ -1,0 +1,274 @@
+/*
+Theme Name: Simple
+Theme URI: 
+Author: Ashlynn Pai
+Author URI: http://www.ashlynnpai.com
+Description: 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: responsive-layout, right-sidebar, search
+Text Domain: 
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* Main Layout */
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #FFF;
+    font-size: 16px;
+}
+
+.widget {
+    padding: 0 5%;
+}
+
+.row p {
+    font-size: 18px;
+    line-height: 150%;
+}
+  
+/* Blog */
+
+article.post {
+	margin: 20px 0 40px;
+}
+
+.post {
+    padding: 1%;
+}
+
+.blog-photo {
+    background: 
+    height: 200px;
+    width: 100%;
+    padding-top: 0;
+}
+
+#blog-description {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 40px;
+}
+
+#single-blog {
+    padding: 0 5%;
+}
+
+body.single.single-post {
+    font-size: 18px; 
+}
+
+#blog-head, #page-title {
+
+}
+
+#blog-listing-title {
+    padding: 0;
+}
+
+#page-body {
+    padding-left: 5%;
+}
+
+/* Navigation */
+/*if admin bar shows, makes it smaller*/
+.admin-bar .navbar-fixed-top {
+	margin-top: 30px;
+}
+
+.current-menu-item > a, .current-menu-parent > a {
+	background: #000;	
+}
+
+.current-menu-parent li a {
+	background: inherit;
+}
+
+.current-menu-parent .current-menu-item a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.navbar .nav > li > a {
+    color: #D7E5D7;
+    font-size: 18px;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+a.navbar-brand {
+    display: none;
+}
+
+.nav {
+    text-align: center;
+    padding: 1% 5% 0 0;
+    background-color:    
+    rgba(0,0,0,0.9);
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.nav ul {
+    list-style: none;
+}
+    
+.nav li {
+    display: inline-block; 
+}
+
+.nav a {
+    font-size: 18px;
+    color: #E1D7B9;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+
+.nav a:hover {
+    color: #D2603D;   
+}
+
+/* Sidebar */
+.sidebar { 
+	margin-top: 100px;
+    padding: 1%;
+	background: 
+}
+
+.sidebar .widget {
+    line-height: 1.5em;
+    margin-bottom: 2em;
+}
+
+.textwidget img {
+    float:left;
+    margin-right: 2%;
+}
+
+/* Images */
+
+.wp-caption { 
+    border: 1px solid #DDDDDD;
+    line-height: 2;
+    margin: 0 30px 10px;
+    padding: 5px 0 0;
+    text-align: center;
+}
+
+/* enable align image */
+    img.alignright {float:right; margin:0 0 1em 1em}
+    img.alignleft {float:left; margin:0 1em 1em 0}
+    img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+    .alignright {float:right; }
+    .alignleft {float:left; }
+    .aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+/* comments */
+
+ul {
+  list-style:none;
+}
+
+#comments-section {
+   
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+ol.commentlist li.comment div.vcard img.avatar {
+    border: solid 3px #D2603D;
+    border-radius: 5px;
+    margin-right: 1%;
+}
+
+.comment-author {
+    color: #D2603D;
+    font-size: 22px;
+    margin-top: 4%;
+}
+
+#comments-section h1 {
+    font-size: 34px;
+    padding: 30px;
+}
+
+#comments-section p {
+   margin: 1% 3%;
+}
+
+#submit {
+    margin-bottom: 30px; 
+    border: solid 3px #D2603D;
+    border-radius: 5px;
+}
+
+#submit:hover {
+    background-color: #D2603D;
+}
+
+/* etc */
+/*Older Posts, Newer Posts*/
+.next-posts, .prev-posts {
+    font-size: 20px;
+    padding: 0 10% 5% 10%;
+    display: inline-block;
+ }
+
+/*Contact Form 7 plugin styling*/
+
+.wpcf7 {
+    border-radius: 10px;
+    border: 3px solid #000;
+    color: #fff; 
+}
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea,
+.wpcf7 input[type="submit"]  {
+    border-radius: 5px;
+    border: 2px solid #000;
+    color: #000;
+}
+
+.wpcf7 input[type="submit"] {
+    margin-bottom: 2%;
+}
+
+.wpcf7 input[type="text"]:hover,
+.wpcf7 input[type="email"]:hover,
+.wpcf7 textarea:hover,
+.wpcf7 input[type="submit"]:hover  {
+    background-color: #C1C4FB;
+}
+
+div.wpcf7-response-output {
+  color: #98FF98;
+  border: none;
+  font-size: 24px;
+  border: 2px solid #98FF98;
+}
+
+/* override default paragraph spacing*/
+p {
+    margin: 1px 1px 2% 1px;
+}
+
+.sticky {
+}
+
+.gallery-caption {
+}
+
+.bypostauthor {
+}   
+
+
