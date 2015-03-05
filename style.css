@@ -1,14 +1,14 @@
 /*
-Theme Name: Simple
-Theme URI: 
+Theme Name: Basic
+Theme URI: www.ashlynnpai.com/blog
 Author: Ashlynn Pai
 Author URI: http://www.ashlynnpai.com
 Description: 
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: responsive-layout, right-sidebar, search
-Text Domain: 
+Tags: responsive-layout, right-sidebar
+Text Domain: travel
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -17,9 +17,11 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* Main Layout */
 
 body {
+    font-family: 'Montserrat', 'Quicksand', sans-serif;
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color: #FFF;
+    /*background-color: #F7E7CE;*/
+    background-color: #F5F5EC;
     font-size: 16px;
 }
 
@@ -29,6 +31,7 @@ body {
 
 .row p {
     font-size: 18px;
+    font-family: 'Montserrat', 'Quicksand', sans-serif;
     line-height: 150%;
 }
   
@@ -43,7 +46,8 @@ article.post {
 }
 
 .blog-photo {
-    background: 
+    background: url("../basic/img/caverio.jpg") no-repeat center center;
+    /*"Caverio map medium res" by Nicolay de Caveri - http://visualiseur.bnf.fr/CadresFenetre?O=IFN-7759102&I=1&M=chemindefer. Licensed under Public domain via Wikimedia Commons - http://commons.wikimedia.org/wiki/File:Caverio_map_medium_res.jpg#mediaviewer/File:Caverio_map_medium_res.jpg*/
     height: 200px;
     width: 100%;
     padding-top: 0;
@@ -52,6 +56,7 @@ article.post {
 #blog-description {
     text-align: center;
     padding-top: 5%;
+    font-family: 'Allura', 'Quicksand','Montserrat', serif;
     font-size: 40px;
 }
 
@@ -64,7 +69,7 @@ body.single.single-post {
 }
 
 #blog-head, #page-title {
-
+    font-family: 'Allura', 'Quicksand','Montserrat', serif;
 }
 
 #blog-listing-title {
@@ -131,6 +136,10 @@ a.navbar-brand {
     padding: 0 10px;
 }
 
+.nav #name {
+    font-family: 'Allura', 'Montserrat', cursive; 
+    font-size: 24px;
+}
 
 .nav a:hover {
     color: #D2603D;   
@@ -140,7 +149,8 @@ a.navbar-brand {
 .sidebar { 
 	margin-top: 100px;
     padding: 1%;
-	background: 
+	background: url("../basic/img/math.png") repeat center center;  
+    /* Background pattern from subtlepatterns.com: Old Mathematics by Josh Green*/
 }
 
 .sidebar .widget {
@@ -161,6 +171,8 @@ a.navbar-brand {
     margin: 0 30px 10px;
     padding: 5px 0 0;
     text-align: center;
+    background: url("../basic/img/math.png") repeat center center;  
+    /* Background pattern from subtlepatterns.com: Old Mathematics by Josh Green*/
 }
 
 /* enable align image */
@@ -178,7 +190,8 @@ ul {
 }
 
 #comments-section {
-   
+    background: url("../basic/img/math.png") repeat center center;  
+      /* Background pattern from subtlepatterns.com: Old Mathematics by Josh Green*/
     padding-left: 2%;
     padding-right: 2%;
 }
@@ -214,6 +227,8 @@ ol.commentlist li.comment div.vcard img.avatar {
     background-color: #D2603D;
 }
 
+
+
 /* etc */
 /*Older Posts, Newer Posts*/
 .next-posts, .prev-posts {
@@ -222,11 +237,12 @@ ol.commentlist li.comment div.vcard img.avatar {
     display: inline-block;
  }
 
-/*Contact Form 7 plugin styling*/
+/*Contact Form 7*/
 
 .wpcf7 {
     border-radius: 10px;
     border: 3px solid #000;
+    background: url("../basic/img/earth.JPG") no-repeat center center; 
     color: #fff; 
 }
 
