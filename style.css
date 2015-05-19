@@ -205,13 +205,14 @@ ul {
 }
 
 ol.commentlist li.comment div.vcard img.avatar {
-    border: solid 3px #D2603D;
+    border: solid 3px #960049;
     border-radius: 5px;
     margin-right: 1%;
 }
 
 .comment-author {
     color: #D2603D;
+    color: #960049;
     font-size: 22px;
     margin-top: 4%;
 }
@@ -240,22 +241,32 @@ ol.commentlist li.comment div.vcard img.avatar {
 #submit {
     margin-bottom: 30px; 
     border: solid 3px #D2603D;
+    border: solid 3px #960049;
     border-radius: 5px;
 }
 
 #submit:hover {
     background-color: #D2603D;
+    background-color: #FFDFDD;
 }
 
 
 
 /* etc */
-/*Older Posts, Newer Posts*/
+/*Older Posts, Newer Posts, Tags*/
 .next-posts, .prev-posts {
     font-size: 20px;
     padding: 0 10% 5% 10%;
     display: inline-block;
  }
+
+.next-posts a, .prev-posts a {
+    color: #00974E;
+ }
+
+#vertical-space {
+    margin-top: 80px; 
+}
 
 /*404 page*/
 .not-found {
