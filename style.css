@@ -193,10 +193,16 @@ ul {
 }
 
 #comments-section {
-    background: url("../basic/img/grey-min.jpg") repeat center center;  
-      /* Background pattern from subtlepatterns.com: Old Mathematics by Josh Green*/
     padding-left: 2%;
     padding-right: 2%;
+}
+
+#respond {
+    background: url("../basic/img/grey-min.jpg") repeat center center;  
+  /* Background pattern from subtlepatterns.com: Old Mathematics by Josh Green*/
+    padding-left: 2%;
+    padding-top: 2%;
+    margin-top: 50px;
 }
 
 ol.commentlist li.comment div.vcard img.avatar {
@@ -210,6 +216,7 @@ ol.commentlist li.comment div.vcard img.avatar {
     color: #960049;
     font-size: 22px;
     margin-top: 4%;
+    margin-bottom: 2%;
 }
 
 #comments-section h1 {
@@ -224,6 +231,7 @@ ol.commentlist li.comment div.vcard img.avatar {
 #comments-title {
    padding: 3% 0;
    margin-top: 10px;
+   color: #55002B;
  }
 
 
@@ -234,16 +242,19 @@ ol.commentlist li.comment div.vcard img.avatar {
 
 #submit {
     margin-bottom: 30px; 
-    border: solid 3px #D2603D;
     border: solid 3px #960049;
     border-radius: 5px;
 }
 
 #submit:hover {
-    background-color: #D2603D;
-    background-color: #FFDFDD;
+    background-color: #EFECE3;  
 }
 
+.comment-field {
+    border-radius: 8px;
+    background-color: #EFECE3;
+    margin-top: 1%;
+}
 
 
 /* etc */
