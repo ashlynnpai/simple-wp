@@ -156,6 +156,18 @@ a.navbar-brand {
 input#s {
     border-radius: 10px;
     background-color: #EFECE3;
+    min-height: 35px;
+}
+
+#search-button {
+    background-color: #E1DED5;
+}
+
+
+textarea:focus, input:focus, .uneditable-input:focus, button:focus {   
+    border-color: #C9C4B4 !important;
+    box-shadow: 0 1px 1px #C9C4B4 inset, 0 0 8px #C9C4B4 !important;
+    outline: 0 none !important;
 }
 
 /* Images */
@@ -295,10 +307,10 @@ ol.commentlist li.comment div.vcard img.avatar {
 
 .wpcf7 {
     border-radius: 10px;
-    border: 3px solid #000;
-    background: url("../basic/img/earth.JPG") no-repeat center center; 
-    color: #fff; 
+    background: url("../basic/img/grey-min.jpg") repeat; 
+    color: #55002B; 
     max-width: 600px;
+    margin-bottom: 200px;
 }
 
 .wpcf7 img {
@@ -311,8 +323,8 @@ ol.commentlist li.comment div.vcard img.avatar {
 .wpcf7 textarea,
 .wpcf7 input[type="submit"]  {
     border-radius: 5px;
-    border: 2px solid #000;
-    color: #000;
+    background-color: #EFECE3;
+    color: #55002B;
 }
 
 .wpcf7 input[type="submit"] {
@@ -323,20 +335,22 @@ ol.commentlist li.comment div.vcard img.avatar {
 .wpcf7 input[type="email"]:hover,
 .wpcf7 textarea:hover,
 .wpcf7 input[type="submit"]:hover  {
-    background-color: #C1C4FB;
+    background-color: #efe6e3;
 }
 
 .wpcf7 input, textarea {
-    width:90%;
+    width:66%;
     display:block;
 }
 
 div.wpcf7-response-output {
-    color: #98FF98;
+    color: #55002B;
     border: none;
     font-size: 24px;
-    border: 2px solid #98FF98;
+    border: 2px solid #55002B;
 }
+
+/* global apply last */
 
 a {
     color: #55002B;
@@ -346,7 +360,6 @@ a {
 a:hover {
     color: #87095D;
     text-decoration: none;
-    font-size: 1.1em;
 }
 
 .nav a {
