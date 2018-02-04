@@ -7,7 +7,7 @@ Tags: right-sidebar, responsive
 
 
 
-It is a simplified version of my travel Bootstrap theme. It lacks a landing page uses a list of blog posts as the home page. It has a right sidebar which is customized through the dashboard.
+This is a simplified version of my travel Bootstrap theme. It lacks a landing page uses a list of blog posts as the home page. It has a right sidebar which is customized through the dashboard.
 
 
     This program is free software: you can redistribute it and/or modify
