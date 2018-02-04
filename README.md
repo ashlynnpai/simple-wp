@@ -1,8 +1,12 @@
 
 Theme: SimpleWP
+
 Author: Ashlynn Pai
+
 Twitter: @ashlynnpai
+
 Description: This is a Wordpress theme made with Bootstrap v3.2.0.
+
 Tags: right-sidebar, responsive
 
 
