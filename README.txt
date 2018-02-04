@@ -1,13 +1,14 @@
 
-Theme: Basic
+Theme: SimpleWP
 Author: Ashlynn Pai
 Twitter: @ashlynnpai
-Description: This is a Wordpress theme made with Bootstrap v3.2.0. 
+Description: This is a Wordpress theme made with Bootstrap v3.2.0.
 Tags: right-sidebar, responsive
-Passed the Google mobile-friendly test (April 9, 2015)
 
 
-It is a simplified version of my travel Bootstrap theme. Instead of a full landing page as the other theme has, the home page displays the five most recent blog posts. It comes with a widgetized sidebar and search function that can be used to navigate the site.
+
+It is a simplified version of my travel Bootstrap theme. It lacks a landing page uses a list of blog posts as the home page. It has a right sidebar which is customized through the dashboard.
+
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

@@ -1,9 +1,9 @@
 /*
-Theme Name: Basic
+Theme Name: SimpleWP
 Theme URI: www.ashlynnpai.com/blog
 Author: Ashlynn Pai
 Author URI: http://www.ashlynnpai.com
-Description: 
+Description:
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -18,7 +18,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 body {
     font-family: 'Montserrat', sans-serif;
-   
     padding-bottom: 20px;
     background-color: #EFECE3;
     font-size: 16px;
@@ -33,11 +32,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     line-height: 150%;
 }
-  
+
 /* Blog */
 
 article.post {
-	margin: 20px 0 40px;
+	  margin: 20px 0 40px;
 }
 
 .post {
@@ -57,7 +56,7 @@ article.post {
 }
 
 body.single.single-post {
-    font-size: 18px; 
+    font-size: 18px;
 }
 
 #blog-head, #page-title {
@@ -79,7 +78,7 @@ body.single.single-post {
 }
 
 .current-menu-item > a, .current-menu-parent > a {
-	background: #000;	
+	background: #000;
 }
 
 .current-menu-parent li a {
@@ -105,7 +104,7 @@ a.navbar-brand {
 .nav {
     text-align: center;
     padding: 1% 5% 0 0;
-    background-color:    
+    background-color:
     rgba(0,0,0,0.9);
 }
 
@@ -117,18 +116,18 @@ a.navbar-brand {
 .nav ul {
     list-style: none;
 }
-    
+
 .nav li {
-    display: inline-block; 
+    display: inline-block;
 }
 
 
 
 /* Sidebar */
-.sidebar { 
+.sidebar {
 	margin-top: 100px;
     padding: 1%;
-	background: url("../basic/img/grey-min.jpg") repeat center center;  
+	background: url("../basic/img/grey-min.jpg") repeat center center;
     /* Background pattern from subtlepatterns.com: Old Mathematics by Josh Green*/
 }
 
@@ -164,7 +163,7 @@ input#s {
 }
 
 
-textarea:focus, input:focus, .uneditable-input:focus, button:focus {   
+textarea:focus, input:focus, .uneditable-input:focus, button:focus {
     border-color: #C9C4B4 !important;
     box-shadow: 0 1px 1px #C9C4B4 inset, 0 0 8px #C9C4B4 !important;
     outline: 0 none !important;
@@ -172,14 +171,14 @@ textarea:focus, input:focus, .uneditable-input:focus, button:focus {
 
 /* Images */
 
-.wp-caption { 
+.wp-caption {
     border: 1px solid #DDDDDD;
     line-height: 2;
     margin: 80px 40px;
     padding: 5px 0 0;
     font-size: 12px;
     text-align: center;
-    background: url("../basic/img/grey-min.jpg") repeat center center;  
+    background: url("../basic/img/grey-min.jpg") repeat center center;
     /* Background pattern from subtlepatterns.com: Old Mathematics by Josh Green*/
     max-width: 90% !important;
     max-height: auto  !important;
@@ -210,7 +209,7 @@ ul {
 }
 
 #respond {
-    background: url("../basic/img/grey-min.jpg") repeat center center;  
+    background: url("../basic/img/grey-min.jpg") repeat center center;
   /* Background pattern from subtlepatterns.com: Old Mathematics by Josh Green*/
     padding-left: 2%;
     padding-top: 2%;
@@ -253,13 +252,13 @@ ol.commentlist li.comment div.vcard img.avatar {
 }
 
 #submit {
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
     border: solid 3px #960049;
     border-radius: 5px;
 }
 
 #submit:hover {
-    background-color: #EFECE3;  
+    background-color: #EFECE3;
 }
 
 .comment-field {
@@ -279,12 +278,12 @@ ol.commentlist li.comment div.vcard img.avatar {
 
 
 #vertical-space {
-    margin-top: 80px; 
+    margin-top: 80px;
 }
 
 /*404 page*/
 .not-found {
-    background: url("../basic/img/kat.png") no-repeat center center fixed; 
+    background: url("../basic/img/kat.png") no-repeat center center fixed;
     /*phphoto 2010, CC by ND 2.0*/
     background-size: cover;
     -moz-background-size: cover;
@@ -307,8 +306,8 @@ ol.commentlist li.comment div.vcard img.avatar {
 
 .wpcf7 {
     border-radius: 10px;
-    background: url("../basic/img/grey-min.jpg") repeat; 
-    color: #55002B; 
+    background: url("../basic/img/grey-min.jpg") repeat;
+    color: #55002B;
     max-width: 600px;
     margin-bottom: 200px;
 }
@@ -317,7 +316,7 @@ ol.commentlist li.comment div.vcard img.avatar {
     max-width: 98% !important;
     max-height: auto  !important;
 }
-  
+
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"],
 .wpcf7 textarea,
@@ -371,7 +370,7 @@ a:hover {
 
 
 .nav a:hover {
-    color: #D2603D;   
+    color: #D2603D;
 }
 
 /* override default paragraph spacing*/
@@ -386,7 +385,7 @@ p {
 }
 
 .bypostauthor {
-}   
+}
 
 
 @media only screen and (max-width: 680px) {
@@ -394,9 +393,9 @@ p {
       font-size: 12px;
 
   }
-  
 
- 
+
+
 }
 
 @media only screen and (max-width: 420px) {
